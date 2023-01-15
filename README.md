@@ -17,7 +17,7 @@ This project uses `npm version >= 8.19.3` and `node version >= 18.13.0`.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/petrokss/number-to-words
+   git clone https://github.com/petrokss/number-to-words.git
    ```
 2. Install the packages
    ```sh
