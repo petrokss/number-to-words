@@ -69,7 +69,7 @@ describe("numbersToWords", () => {
     expect(numbersToWords(10025)).toBe("ten thousand and twenty-five");
   });
 
-  it("should return 'twelve thousand, three hundred' for 12055", () => {
+  it("should return 'twelve thousand and fifty-five' for 12055", () => {
     const result = numbersToWords(12055);
     expect(result).toEqual("twelve thousand and fifty-five");
   });
@@ -79,7 +79,7 @@ describe("numbersToWords", () => {
     expect(result).toEqual("twelve thousand, three hundred");
   });
 
-  it("should return 'twelve thousand, three hundred' for 12303", () => {
+  it("should return 'twelve thousand, three hundred and three' for 12303", () => {
     const result = numbersToWords(12303);
     expect(result).toEqual("twelve thousand, three hundred and three");
   });
